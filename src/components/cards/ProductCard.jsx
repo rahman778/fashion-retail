@@ -1,6 +1,6 @@
 function ProductCard() {
    return (
-      <div className="bg-white text-center pt-3 rounded-2xl shadow-custom click-transition">
+      <div className="bg-white text-center pt-3 rounded-2xl shadow-custom click-transition w-full">
          {/* product title */}
          <h3 className="text-lg font-bold mx-3">Mens Cotton Jacket</h3>
          {/* product image */}
