@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: "#0E42FD",
         mattBlack: "#0E0E0E",
+        lightGray: "#F5F5F5",
      },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
