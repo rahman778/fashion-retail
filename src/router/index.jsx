@@ -14,7 +14,7 @@ const router = createBrowserRouter([
             element: <LandingPage />,
          },
          {
-            path: "/category/:categoryName",
+            path: "/category/:category",
             element: <CategoryPage />,
          },
       ],
