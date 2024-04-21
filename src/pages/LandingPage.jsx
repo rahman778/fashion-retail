@@ -23,14 +23,14 @@ function LandingPage() {
          }
          const data = await response.json();
 
-         // Filter products for "Men's Clothing" category for demo purposes
+         // Filter "Men's Clothing" category for demo purposes
          const menProducts = data
             .filter((product) => {
                return product.category === "men's clothing";
             })
             .slice(0, 2);
 
-         // Filter products for "Women's Clothing" category for demo purposes
+         // Filter "Women's Clothing" category for demo purposes
          const womenProducts = data
             .filter((product) => {
                return product.category === "women's clothing";
